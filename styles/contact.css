@@ -1,5 +1,5 @@
 #contact {
-  background-image: url(./assets/Background_Contacts.png);
+  background-image: url(./assets/Background_Contacts.png) !important;
   background-position: bottom;
   background-size: cover;  
   background-repeat: no-repeat;
