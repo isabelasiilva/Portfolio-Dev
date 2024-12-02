@@ -1,0 +1,62 @@
+#intro {
+  background-image: url(/assets/Background_Intro.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+  header {
+    padding-block: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        
+    text-align: center;
+    
+      h1 {
+        font: var(--font-inconsolata-sub);
+        color: var(--gray-500);
+      
+      span:nth-child(1) {
+        color: var(--red);
+      }
+
+      span:nth-child(3) {
+        font: var(--font-asap-title-lg);
+        color: var(--gray-600); 
+      }
+    }
+    
+    p {
+      
+      font: var(--font-maven-sm);
+      color: var(--gray-400);
+    }
+
+    nav {
+      font: var(--font-maven-md);
+      color: var(--gray-500);
+      display: flex;
+      gap: 16px;
+      margin-block: 80px 92px;
+
+      div {
+        background-color: var(--gray-300);
+        border-radius: 999px;
+        width: 114px;
+        padding-block: 8px;
+        gap: 8px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      div:nth-child(4) {
+        padding-inline: 16px;
+      }
+    }
+  }
+}
+
+
